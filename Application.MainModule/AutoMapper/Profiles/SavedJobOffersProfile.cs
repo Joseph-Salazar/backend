@@ -9,6 +9,5 @@ public class SavedJobOffersProfile : Profile
     public SavedJobOffersProfile()
     {
         CreateMap<SavedJobOffers, SavedJobOffersDto>();
-        CreateMap<AddSavedJobOffersDto, SavedJobOffers>().ReverseMap();
     }
 }

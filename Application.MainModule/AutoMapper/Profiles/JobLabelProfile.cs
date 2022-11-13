@@ -9,7 +9,5 @@ public class JobLabelProfile : Profile
     public JobLabelProfile()
     {
         CreateMap<JobLabel, JobLabelDto>();
-        CreateMap<JobLabel, AddJobLabelDto>().ReverseMap();
-
     }
 }

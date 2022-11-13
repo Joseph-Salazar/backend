@@ -9,6 +9,5 @@ public class RoleProfile : Profile
     public RoleProfile()
     {
         CreateMap<Role, RoleDto>();
-        CreateMap<AddRoleDto, Role>().ReverseMap();
     }
 }

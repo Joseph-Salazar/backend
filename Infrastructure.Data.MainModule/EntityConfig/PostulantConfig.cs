@@ -10,15 +10,6 @@ public class PostulantConfig : IEntityTypeConfiguration<Postulant>
     {
         builder.HasKey(e => e.Id);
 
-        builder.HasOne(e => e.PostulantRole)
-            .WithMany(e => e.Postulants)
-            .HasForeignKey(e => e.RoleId)
-            .IsRequired(false);
-
-        builder.HasMany(e => e.Postulations)
-            .WithMany(f => f.Postulants);
-
-        builder.HasMany(e => e.SavedJobOffers)
-            .WithOne(f => f.Postulant);
+        
     }
 }

@@ -10,10 +10,6 @@ public class PostulationConfig : IEntityTypeConfiguration<Postulation>
     {
         builder.HasKey(e => e.Id);
 
-        builder.HasOne(e => e.JobOffer)
-            .WithMany(f => f.Postulations);
-
-        builder.HasMany(e => e.Postulants)
-            .WithMany(f => f.Postulations);
+        
     }
 }

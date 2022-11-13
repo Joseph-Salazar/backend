@@ -11,8 +11,6 @@ public class CompanyConfig : IEntityTypeConfiguration<Company>
     {
         builder.HasKey(e => e.Id);
 
-        builder.HasOne(e => e.CompanyRole)
-            .WithMany(e => e.Companies)
-            .HasForeignKey(e => e.RoleId).IsRequired(false);
+        
     }
 }

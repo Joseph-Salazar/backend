@@ -10,8 +10,6 @@ public class JobOfferProfile : Profile
     public JobOfferProfile()
     {
         CreateMap<JobOffer, JobOfferDto>();
-        CreateMap<JobOffer, AddJobOfferDto>().ReverseMap();
-        CreateMap<JobOffer, JobOfferWithCompany>().ReverseMap();
 
     }
 }

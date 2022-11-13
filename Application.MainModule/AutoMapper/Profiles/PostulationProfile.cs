@@ -9,6 +9,5 @@ public class PostulationProfile : Profile
     public PostulationProfile()
     {
         CreateMap<Postulation, PostulationDto>();
-        CreateMap<AddPostulationDto, Postulation>().ReverseMap();
     }
 }

@@ -9,8 +9,6 @@ public class CompanyProfile : Profile
     public CompanyProfile()
     {
         CreateMap<Company, CompanyDto>().ReverseMap();
-        CreateMap<Company, AddCompanyDto>().ReverseMap();
-        CreateMap<Company, UpdateCompanyDto>().ReverseMap();
 
     }
 }

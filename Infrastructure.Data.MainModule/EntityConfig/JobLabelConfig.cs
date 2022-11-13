@@ -10,7 +10,6 @@ public class JobLabelConfig : IEntityTypeConfiguration<JobLabel>
     {
         builder.HasKey(e => e.Id);
 
-        builder.HasMany(e => e.JobOffers)
-            .WithMany(f => f.JobLabels);
+        
     }
 }

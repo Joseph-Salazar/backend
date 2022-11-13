@@ -10,10 +10,6 @@ public class RoleConfig : IEntityTypeConfiguration<Role>
     {
         builder.HasKey(e => e.Id);
 
-        builder.HasMany(e => e.Postulants)
-            .WithOne(f => f.PostulantRole);
-
-        builder.HasMany(e => e.Companies)
-            .WithOne(f => f.CompanyRole);
+        
     }
 }
