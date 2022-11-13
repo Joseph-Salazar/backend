@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Distributed.Services</name>
+    </assembly>
+    <members>
+        <member name="M:Distributed.Services.Controllers.CompanyController.RegisterCompany(Application.Dto.Company.RegisterCompanyDto)">
+            <summary>
+            Permite registrar una compañía
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.CompanyController.LogingCompany(Application.Dto.Company.LoginCompanyDto)">
+            <summary>
+            Permite a una compañía ingresar al sistema
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.CompanyController.GetById(System.Int32)">
+            <summary>
+            Permite obtener una compañía por id
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.CompanyController.Add(Application.Dto.Company.AddCompanyDto)">
+            <summary>
+            Permite agregar una compañía
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.CompanyController.Update(Application.Dto.Company.UpdateCompanyDto)">
+            <summary>
+            Permite actualizar una compañía
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobLabelController.GetById(System.Int32)">
+            <summary>
+            Permite obtener una etiqueta de trabajo por id
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobLabelController.Add(Application.Dto.JobLabel.AddJobLabelDto)">
+            <summary>
+            Permite agregar una etiqueta de trabajo
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobLabelController.Update(Application.Dto.JobLabel.JobLabelDto)">
+            <summary>
+            Permite actualizar una etiqueta de trabajo
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobOfferController.GetById(System.Int32)">
+            <summary>
+            Permite obtener una oferta de trabajo por id
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobOfferController.GetAll">
+            <summary>
+            Permite obtener todas las ofertas de trabajo
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobOfferController.GetByCompany(System.Int32)">
+            <summary>
+            Permite obtener todas las ofertas de trabajo de una compañía
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobOfferController.Add(Application.Dto.JobOffer.AddJobOfferDto)">
+            <summary>
+            Permite agregar una oferta de trabajo
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.JobOfferController.Update(Application.Dto.JobOffer.JobOfferDto)">
+            <summary>
+            Permite actualizar una compañía
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulantController.RegisterPostulant(Application.Dto.Postulant.RegisterPostulantDto)">
+            <summary>
+            Permite registrar un postulante
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulantController.LoginPostulant(Application.Dto.Postulant.LoginPostulantDto)">
+            <summary>
+            Permite a un postulante ingresar al sistema
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulantController.GetById(System.Int32)">
+            <summary>
+            Permite obtener un postulante por id
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulantController.Add(Application.Dto.Postulant.AddPostulantDto)">
+            <summary>
+            Permite agregar un postulante
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulantController.Update(Application.Dto.Postulant.UpdatePostulantDto)">
+            <summary>
+            Permite actualizar un postulante
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulationController.GetById(System.Int32)">
+            <summary>
+            Permite obtener una postulación por id
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulationController.Add(Application.Dto.Postulation.AddPostulationDto)">
+            <summary>
+            Permite agregar una postulación
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.PostulationController.Update(Application.Dto.Postulation.PostulationDto)">
+            <summary>
+            Permite actualizar una postulación por id
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.RoleController.GetById(System.Int32)">
+            <summary>
+            Permite obtener un rol por id
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.RoleController.Add(Application.Dto.Role.AddRoleDto)">
+            <summary>
+            Permite agregar un rol
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.RoleController.Update(Application.Dto.Role.RoleDto)">
+            <summary>
+            Permite actualizar un rol
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.SavedJobOffersController.Add(Application.Dto.SavedJobOffer.AddSavedJobOffersDto)">
+            <summary>
+            Permite agregar una oferta de trabajos a la lista de favoritos del postulante
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.SavedJobOffersController.Update(Application.Dto.SavedJobOffer.SavedJobOffersDto)">
+            <summary>
+            Permite editar una oferta de trabajo guardada
+            </summary>
+        </member>
+        <member name="M:Distributed.Services.Controllers.SavedJobOffersController.GetByPostulant(System.Int32)">
+            <summary>
+            Permite obtener las ofertas de trabajo guardadas por un postulante
+            </summary>
+        </member>
+    </members>
+</doc>
